@@ -42,7 +42,7 @@ $ git cat-file -p 9d1234
 Print object's content. 9d - name folder, 1234-first symbols of cache.
 
 ```shell
-$ git commit -m"comments"
+$ git commit -m "comments"
 ```
 
 Save files with comments.
@@ -53,42 +53,54 @@ $ git log
 
 Show all commits in this folder.
 
-\$ git checkout -b dev
+```shell
+$ git checkout -b dev
+```
 
 Create and go to the new branch 'fev'.
 
-\$ git log --graph --decorate --all
+```shell
+$ git log --graph --decorate --all
+```
 
 Watch all commits
 
+```shell
 $ git log --graph --decorate $(git rev-list -g --all)
+```
 
 show all commits, include detouched.
 
-$ git remote add origin https://github.com/NataliaKalacheva/demogit.git
-$ git push -u origin master
+```shell
+$ git remote add origin https://demolink.cc
+```
 
-\$ git remote -v
+connect with remote
+
+```shell
+$ git push -u origin master
+```
+
+push in remote branch master
+
+```shell
+$ git remote -v
+```
 
 Show our remote
 
-<<<<<<< HEAD
-git ignore:
-node_modules
-package.log
-buiche
+```shell
+$ ssh-keygen
+```
 
-\$ ssh-keygen
+Generate ssh key
 
-# Generate ssh key
-
-\$ git pull origin dev
+```shell
+$ git pull origin dev
+```
 
 get updates from remote repository origin branch dev
 
-<<<<<<< HEAD
-\$ ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-=======
-
-> > > > > > > dfa1a159bb57824e46447a4999dba28e5da74d5d
-> > > > > > > dev
+```shell
+$ ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+```
